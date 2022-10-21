@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		50B59D70D2FDBB82D1E708EA /* Pods_SwiftArquiteturas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BBA8A45D3B18D5877268FD /* Pods_SwiftArquiteturas.framework */; };
+		A039AE7729024C7000B57137 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AE7629024C7000B57137 /* UserProvider.swift */; };
+		A039AE7A29024DD300B57137 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AE7929024DD300B57137 /* UserModel.swift */; };
+		A039AE7D290251F200B57137 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AE7C290251F200B57137 /* Constants.swift */; };
 		A0FF6C8829023E2D00B5A980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FF6C8729023E2D00B5A980 /* AppDelegate.swift */; };
 		A0FF6C8A29023E2D00B5A980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FF6C8929023E2D00B5A980 /* SceneDelegate.swift */; };
 		A0FF6C8C29023E2D00B5A980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FF6C8B29023E2D00B5A980 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		3C969862F8D679FCC74C33A1 /* Pods-SwiftArquiteturas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturas.debug.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturas/Pods-SwiftArquiteturas.debug.xcconfig"; sourceTree = "<group>"; };
 		86BBA8A45D3B18D5877268FD /* Pods_SwiftArquiteturas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftArquiteturas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A039AE7629024C7000B57137 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		A039AE7929024DD300B57137 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A039AE7C290251F200B57137 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A0FF6C8429023E2D00B5A980 /* SwiftArquiteturas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArquiteturas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FF6C8729023E2D00B5A980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0FF6C8929023E2D00B5A980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 		A039AE71290248B500B57137 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				A039AE7829024DC000B57137 /* Model */,
 				A039AE74290248D900B57137 /* Provider */,
 				A039AE73290248D200B57137 /* Manager */,
 				A039AE72290248CC00B57137 /* Business */,
@@ -86,6 +93,7 @@
 		A039AE74290248D900B57137 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				A039AE7629024C7000B57137 /* UserProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -101,6 +109,22 @@
 				A0FF6C9229023E2F00B5A980 /* LaunchScreen.storyboard */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A039AE7829024DC000B57137 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A039AE7929024DD300B57137 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A039AE7B290251AE00B57137 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A039AE7C290251F200B57137 /* Constants.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		A0FF6C7B29023E2D00B5A980 = {
@@ -124,6 +148,7 @@
 		A0FF6C8629023E2D00B5A980 /* SwiftArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				A039AE7B290251AE00B57137 /* Infrastructure */,
 				A039AE75290248F600B57137 /* Source */,
 				A039AE71290248B500B57137 /* API */,
 				A0FF6C9529023E2F00B5A980 /* Info.plist */,
@@ -249,6 +274,9 @@
 				A0FF6C8C29023E2D00B5A980 /* ViewController.swift in Sources */,
 				A0FF6C8829023E2D00B5A980 /* AppDelegate.swift in Sources */,
 				A0FF6C8A29023E2D00B5A980 /* SceneDelegate.swift in Sources */,
+				A039AE7A29024DD300B57137 /* UserModel.swift in Sources */,
+				A039AE7729024C7000B57137 /* UserProvider.swift in Sources */,
+				A039AE7D290251F200B57137 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
