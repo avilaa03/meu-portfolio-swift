@@ -48,7 +48,6 @@
 				3C969862F8D679FCC74C33A1 /* Pods-SwiftArquiteturas.debug.xcconfig */,
 				FAAFF247B826F5F701AB0E69 /* Pods-SwiftArquiteturas.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +57,50 @@
 				86BBA8A45D3B18D5877268FD /* Pods_SwiftArquiteturas.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A039AE71290248B500B57137 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A039AE74290248D900B57137 /* Provider */,
+				A039AE73290248D200B57137 /* Manager */,
+				A039AE72290248CC00B57137 /* Business */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A039AE72290248CC00B57137 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		A039AE73290248D200B57137 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A039AE74290248D900B57137 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		A039AE75290248F600B57137 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A0FF6C8729023E2D00B5A980 /* AppDelegate.swift */,
+				A0FF6C8929023E2D00B5A980 /* SceneDelegate.swift */,
+				A0FF6C8B29023E2D00B5A980 /* ViewController.swift */,
+				A0FF6C8D29023E2D00B5A980 /* Main.storyboard */,
+				A0FF6C9029023E2F00B5A980 /* Assets.xcassets */,
+				A0FF6C9229023E2F00B5A980 /* LaunchScreen.storyboard */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		A0FF6C7B29023E2D00B5A980 = {
@@ -81,12 +124,8 @@
 		A0FF6C8629023E2D00B5A980 /* SwiftArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
-				A0FF6C8729023E2D00B5A980 /* AppDelegate.swift */,
-				A0FF6C8929023E2D00B5A980 /* SceneDelegate.swift */,
-				A0FF6C8B29023E2D00B5A980 /* ViewController.swift */,
-				A0FF6C8D29023E2D00B5A980 /* Main.storyboard */,
-				A0FF6C9029023E2F00B5A980 /* Assets.xcassets */,
-				A0FF6C9229023E2F00B5A980 /* LaunchScreen.storyboard */,
+				A039AE75290248F600B57137 /* Source */,
+				A039AE71290248B500B57137 /* API */,
 				A0FF6C9529023E2F00B5A980 /* Info.plist */,
 			);
 			path = SwiftArquiteturas;
